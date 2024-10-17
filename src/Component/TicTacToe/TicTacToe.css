@@ -1,0 +1,32 @@
+.content{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: black;
+  height: 110vh;
+  width: 100%;
+  color: white;
+  margin-top: 0;
+}
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+.box{
+ width: 70px;
+ height: 70px;
+ background: lightgray;
+ border: 1px solid black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ align-items: center;
+ color: black;
+}
+.box:hover{
+  background: white;
+}
